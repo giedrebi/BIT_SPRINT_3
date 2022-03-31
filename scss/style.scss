@@ -1,0 +1,108 @@
+@import "reset";
+@import "colors";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
+$margin : 20px;
+$sizeXsmall : 0.8rem;
+$sizeXsmallHover : 1rem;
+$sizeSmall : 1rem;
+$sizeSmallHover : 1.3rem;
+$sizeMedium : 1.5rem;
+$sizeMediumHover : 2rem;
+$sizeLarge : 2.5rem;
+$sizeLargeHover : 3rem;
+$transition : 0.4s;
+$radius: 10px;
+
+body {
+    background-color: $light-brown;
+}
+.nav1 {
+    background-color: $dark-brown;
+    position: sticky;
+	height: 10vh;
+    top: 0;
+    ul {
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        min-height: 10vh;
+        li > a {
+            color: $light-brown;
+            font-size: $sizeSmall;
+            transition: $transition;
+            padding: 8px 15px;
+            border-radius: $radius;
+        }
+        li:hover > a {
+            background-color: $light-brown;
+            color: $dark-brown;
+            font-size: $sizeSmallHover;
+        }
+    }
+}
+header {
+    margin-top: $margin;
+    text-align: center;
+    height: 15vh;
+    a {
+        color: $dark-brown;
+        font-size: $sizeLarge;
+        transition: $transition;
+    }
+    a:hover {
+        color: $black;
+        font-size: $sizeLargeHover;
+    }
+}
+footer {
+    background-color: $dark-brown;
+    color: $light-brown;
+    display: flex;
+    flex-direction: row;
+    margin-top: $margin;
+    padding-top: $margin;
+    width: 100%;
+    .column1 {
+        width: 50%;
+        nav {
+            text-align: center;
+            li {
+                margin-bottom: $margin;
+            }
+            li > a {
+                color: $light-brown;
+                font-size: $sizeXsmall;
+                transition: $transition;
+                padding: 8px 15px;
+                border-radius: $radius;
+            }
+            li:hover > a {
+                background-color: $light-brown;
+                color: $dark-brown;
+                font-size: $sizeXsmallHover;
+            }
+        }
+    }
+    .column2 {
+        width: 50%;
+        text-align: center;
+        .icons {
+            display: block;
+            margin: auto;
+            i {
+                color: $light-brown;
+                font-size: $sizeMedium;
+                transition: $transition;
+                margin: $margin;
+            }
+            i:hover {
+                font-size: $sizeMediumHover;
+            }
+        }
+        p {
+            font-size: $sizeXsmall;
+        }
+    }
+}
