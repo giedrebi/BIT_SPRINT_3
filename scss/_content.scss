@@ -1,0 +1,80 @@
+@import "sizes";
+@import "colors";
+
+.welcome {
+    background-image:  url(../assets/welcome.jpg);
+    background-size:cover;
+    height: 80vh;
+    object-fit: fill;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    margin-bottom: $margin;
+    div {
+        width: 40%;
+        height: 80vh;
+        text-align: center;
+        padding: 140px 0 0 80px;
+        h1 {
+            font-size: $sizeLarge;
+            margin-bottom: 60px;
+        }
+        a {
+            background-color: $dark-brown;
+            color: $light-brown;
+            font-size: $sizeSmall;
+            transition: $transition;
+            padding: 8px 15px;
+            border-radius: $radius;
+        }
+        a:hover {
+            background-color: $light-brown;
+            color: $dark-brown;
+            font-size: $sizeSmallHover;
+            border: $dark-brown solid;
+        }
+    }
+}
+.list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+    div {
+        border: $dark-brown solid 3px;
+        border-radius: $radius;
+        flex: 30%;
+        width: 20%;
+        margin: $margin;
+        padding: 40px 10px 60px 10px;
+        transition: 0.4s;
+        img {
+            width: 80%;
+            border-radius: $radius;
+            margin: $margin;
+        }
+        h3 {
+            margin-bottom: $marginBigger;
+        }
+        a {
+            background-color: $dark-brown;
+            color: $light-brown;
+            font-size: $sizeSmall;
+            transition: $transition;
+            padding: 8px 15px;
+            border-radius: $radius;
+            margin: $margin;
+        }
+        a:hover {
+            background-color: $light-brown;
+            color: $dark-brown;
+            font-size: $sizeSmallHover;
+            border: $dark-brown solid;
+        }
+    }
+    div:hover {
+        border: $dark-brown solid 6px;
+    }
+}
+

@@ -1,19 +1,10 @@
 @import "reset";
 @import "colors";
+@import "content";
+@import "sizes";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
 
-$margin : 20px;
-$sizeXsmall : 0.8rem;
-$sizeXsmallHover : 1rem;
-$sizeSmall : 1rem;
-$sizeSmallHover : 1.3rem;
-$sizeMedium : 1.5rem;
-$sizeMediumHover : 2rem;
-$sizeLarge : 2.5rem;
-$sizeLargeHover : 3rem;
-$transition : 0.4s;
-$radius: 10px;
 
 body {
     background-color: $light-brown;
@@ -55,6 +46,10 @@ header {
         color: $black;
         font-size: $sizeLargeHover;
     }
+}
+div .name {
+    text-align: center;
+    font-size: $sizeMedium;
 }
 footer {
     background-color: $dark-brown;
