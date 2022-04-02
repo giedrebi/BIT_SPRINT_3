@@ -77,4 +77,34 @@
         border: $dark-brown solid 6px;
     }
 }
-
+.contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+    padding-bottom: $margin;
+    div {
+        flex: 50%;
+        h2 , p {
+            margin-bottom: $margin;
+        }
+        form {
+            legend {
+                font-size: $sizeMedium;
+                font-weight: bold;
+                margin-bottom: $margin;
+            }
+            label  {
+                margin-bottom: $margin;
+            }
+            #name , #email {
+                width: 40%;
+            }
+            #message {
+                height: 20vh;
+                width: 60%;
+            }
+        }
+    }
+}
