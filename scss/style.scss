@@ -2,6 +2,7 @@
 @import "colors";
 @import "content";
 @import "sizes";
+@import "mediaqueries";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
 
@@ -34,9 +35,8 @@ body {
     }
 }
 header {
-    margin-top: $margin;
     text-align: center;
-    height: 15vh;
+    margin: $margin;
     a {
         color: $dark-brown;
         font-size: $sizeLarge;

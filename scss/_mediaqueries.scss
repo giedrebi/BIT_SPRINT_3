@@ -1,0 +1,60 @@
+@import "sizes";
+
+$breakpointPhone : 640px;
+$breakpointTablet : 820px;
+
+@media (max-width: $breakpointPhone) {
+    .welcome {
+        height: 50vh;
+        div {
+            width: 50%;
+            padding: 100px 0 0 40px;
+            h1 {
+                font-size: $sizeMedium;
+            }
+            a {
+                font-size: $sizeXsmall
+            }
+            a:hover {
+                font-size: $sizeXsmallHover;
+            }
+        }
+    }
+    .list {
+        flex-direction: column;
+        div {
+            width: 80%;
+        }
+    }
+    .contact {
+        flex-direction: column;
+        div > form {
+            #name , #email {
+                width: 60%;
+            }
+        }
+    }
+}
+@media (min-width: $breakpointPhone) and (max-width: $breakpointTablet) {
+    .welcome {
+        height: 40vh;
+        div {
+            width: 50%;
+            padding: 100px 0 0 40px;
+        }
+    }
+    .list {
+        flex-direction: column;
+        div {
+            width: 65%;
+        }
+    }
+    .contact {
+        flex-direction: column;
+        div > form {
+            #message {
+                height: 10vh;
+            }
+        }
+    }
+}
