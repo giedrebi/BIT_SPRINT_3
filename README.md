@@ -2,8 +2,8 @@
 
 Project was created for learning purposes. It's a promotional page for a real estate company.
 
-![MOJO RENT website](readme_images/mojorent.jpg "mojorent")
-![MOJO RENT website](readme_images/mojorent2.jpg "mojorent")
+<img src="readme_images/mojorent.jpg" width="400">
+<img src="readme_images/mojorent2.jpg" width="400">
 
 ### About project
 
@@ -22,7 +22,7 @@ Project was created for learning purposes. It's a promotional page for a real es
 ### How to instal
 1. First you need to clone repository. Copy link of repository here:
 
-<img src="readme_images/url.JPG" width="300">
+<img src="readme_images/url.jpg" width="300">
 
 2. Go to the folder where you want clone repository, then open GIT BASH there. 
 3. Type `git clone`, then paste the URL you copied earlier and press Enter to create your local clone:
@@ -41,7 +41,7 @@ Then chose settings button and press **Copy Setting as JSON**:
 
 In the same section press on **Edit in settings.json**. Then you need to paste code which you copied before like this:
 
-<img src="readme_images/sass3.JPG" width="400">
+<img src="readme_images/sass3.jpg" width="400">
 
 5. As well, you need to have **Live Server** extension in VScode.
 
@@ -49,11 +49,11 @@ In the same section press on **Edit in settings.json**. Then you need to paste c
 
 Then in below line you need to press on `Watch Sass`:
 
-<img src="readme_images/watchsass.JPG" width="100">
+<img src="readme_images/watchsass.jpg" width="100">
 
 7. To see website, press on `Go Live` in the same line as before:
 
-<img src="readme_images/golive.JPG" width="100">
+<img src="readme_images/golive.jpg" width="100">
 
 ### Premium-branch
 
