@@ -45,6 +45,7 @@ header {
     a:hover {
         color: $black;
         font-size: $sizeLargeHover;
+        text-shadow: 4px 4px $grey;
     }
 }
 div .name {
