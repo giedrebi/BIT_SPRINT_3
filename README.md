@@ -2,8 +2,8 @@
 
 Project was created for learning purposes. It's a promotional page for a real estate company.
 
-<img src="readme_images/mojorent.jpg" width="400">
-<img src="readme_images/mojorent2.jpg" width="400">
+<img src="readme_images/mojorent.jpg" width="550">
+<img src="readme_images/mojorent2.jpg" width="550">
 
 ### About project
 
